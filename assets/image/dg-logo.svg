@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="75.853218mm"
+   height="85.758125mm"
+   viewBox="0 0 286.68934 324.1252"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="dg-logo.svg"
+   inkscape:version="1.4 (1:1.4+202410161351+e7c3feb100)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.85152281"
+     inkscape:cx="150.90612"
+     inkscape:cy="234.87333"
+     inkscape:window-width="1360"
+     inkscape:window-height="768"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(753.13036,-410.77126)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:338.322px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter Bold';fill:#2a7fff;stroke-width:8.45801"
+       x="-774.51581"
+       y="656.82361"
+       id="text16"><tspan
+         id="tspan16"
+         x="-774.51581"
+         y="656.82361"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Inter;-inkscape-font-specification:'Inter Bold';fill:#2a7fff;stroke-width:8.45801">D</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:338.322px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter Bold';fill:#ff9955;stroke-width:8.45801"
+       x="-706.12585"
+       y="731.53247"
+       id="text21"><tspan
+         id="tspan21"
+         x="-706.12585"
+         y="731.53247"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Inter;-inkscape-font-specification:'Inter Bold';fill:#ff9955;stroke-width:8.45801">G</tspan></text>
+    <path
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:472.518px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter Bold';fill:#2a7fff;fill-opacity:1;stroke-width:8.45801"
+       d="m -573.96864,482.11617 c -11.51787,0 -22.44099,1.45631 -32.79327,4.30997 0.43445,0.846 0.88251,1.67619 1.28655,2.55774 5.29245,11.37483 7.96249,25.99867 8.0354,43.8395 7.35298,-3.10555 15.44584,-4.69314 24.31178,-4.69314 6.72799,0 12.85584,0.84217 18.3824,2.52417 3.29816,0.98944 6.34701,2.27369 9.2017,3.78975 10e-4,-0.29983 0.021,-0.58577 0.021,-0.8866 0,-18.49951 -2.57858,-35.0819 -7.65922,-49.80242 -6.67501,-1.08605 -13.60023,-1.63897 -20.78632,-1.63897 z"
+       id="text22" />
+  </g>
+</svg>
