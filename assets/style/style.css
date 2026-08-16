@@ -1,156 +1,92 @@
-/* --- Reset & Base Style --- */
-*, html, body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
-body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  line-height: 1.6;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* styling header */
-
-header {
-  position: sticky;
-  top: 0;
-}
-
-header .navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0.7em;
-  background-color:#3A9DFF;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-}
-
-.logo-nav {
-  font-weight: 500;
-  font-size: 1.5em;
-  color: #F62440;
-}
-
-.logo-nav span {
-  color: #FFFAF3;
-}
-
-.nav-list a {
-  font-weight: 500;
-  margin: 0 1em;
-  color:#D0E7FD;
-  transition: color 0.3s ease;
-}
-
-.nav-list a:hover {
-  color: #FF9C3A;
-}
-
-/* main styling */
-/* jumbotron styling */
-
-.jumbotron {
-      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-      padding: 60px 20px;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .container {
-      max-width: 1100px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 40px;
-      flex-wrap: wrap-reverse; /* Agar gambar berada di atas saat layar HP */
-    }
-
-    .content {
-      flex: 1 1 400px;
-    }
-
-    .content h1 {
-      font-size: 2.8rem;
-      color: #2c3e50;
-      margin-bottom: 15px;
-      line-height: 1.2;
-    }
-
-    .content p {
-      font-size: 1.1rem;
-      color: #555;
-      margin-bottom: 25px;
-      line-height: 1.6;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 12px 30px;
-      background-color: #3498db;
-      color: #ffffff;
-      text-decoration: none;
-      border-radius: 30px;
-      font-weight: bold;
-      transition: background-color 0.3s ease, transform 0.2s ease;
-      box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
-    }
-
-    .btn:hover {
-      background-color: #2980b9;
-      transform: translateY(-2px);
-    }
-
-    .hero-image-wrapper {
-      flex: 1 1 300px;
-      display: flex;
-      justify-content: center;
-    }
-
-    .hero-image {
-      width: 320px;
-      height: 320px;
-      border-radius: 50%; /* Membuat gambar berbentuk bulat */
-      object-fit: cover;   /* Memastikan gambar tidak terdistorsi */
-      border: 8px solid #ffffff;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-    }
-
-
-
-.about {
-  min-height: 500px;
-}
-
-
-
-
-
-/* Responsi untuk layar smartphone */
-@media (max-width: 768px) {
   .jumbotron {
-    text-align: center;
-    padding: 40px 20px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 60px 20px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap-reverse; /* Agar gambar berada di atas saat layar HP */
+  }
+
+  .content {
+    flex: 1 1 400px;
   }
 
   .content h1 {
-    font-size: 2.2rem;
+    font-size: 2.8rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    line-height: 1.2;
+  }
+
+  .content p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 25px;
+    line-height: 1.6;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #3498db;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+  }
+
+  .btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+  }
+
+  .hero-image-wrapper {
+    flex: 1 1 300px;
+    display: flex;
+    justify-content: center;
   }
 
   .hero-image {
-    width: 220px;
-    height: 220px;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%; /* Membuat gambar berbentuk bulat */
+    object-fit: cover;   /* Memastikan gambar tidak terdistorsi */
+    border: 8px solid #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   }
 
-  .navbar .nav-list {
-    display: none;
+  /* Responsi untuk layar smartphone */
+  @media (max-width: 768px) {
+    .jumbotron {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .content h1 {
+      font-size: 2.2rem;
+    }
+
+    .hero-image {
+      width: 220px;
+      height: 220px;
+    }
   }
-}
